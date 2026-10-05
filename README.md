@@ -20,5 +20,10 @@
 
 ```bash
 nc -C example.org 80
-
+```
 Набраний запит:
+```bash
+GET / HTTP/1.1
+Host: example.org
+Connection: close
+```
