@@ -19,4 +19,5 @@
 **Команда:**
 
 ```bash
-nc -C example.org 80 | tee raw/a1-manual.txt
+nc -C example.org 80
+
