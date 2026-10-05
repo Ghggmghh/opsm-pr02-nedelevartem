@@ -27,3 +27,32 @@ GET / HTTP/1.1
 Host: example.org
 Connection: close
 ```
+Відповідь:
+```bash
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 512394
+Cache-Control: max-age=604800
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 05 Oct 2026 15:00:10 GMT
+Etag: "3147526947"
+Expires: Mon, 12 Oct 2026 15:00:10 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (dcb/7EEB)
+Vary: Accept-Encoding
+X-Cache: HIT
+Content-Length: 1256
+Connection: close
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+...
+</html>
+```
+# Завдання A.2. Запит без поля Host у версії 1.1
+Команда:
