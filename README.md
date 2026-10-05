@@ -21,3 +21,4 @@
 ```bash
 nc -C example.org 80
 
+Набраний запит:
